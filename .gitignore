@@ -1,0 +1,54 @@
+
+#ARCHIVOS DEL SERVIDOR
+/servidor/.venv
+/servidor/.mypy_cache
+/servidor/.ruff_cache
+/servidor/app/api/endpoints/__pycache__
+/servidor/app/internal/database/__pycache__
+/servidor/app/internal/services/__pycache__
+/servidor/app/services/__pycache__
+/servidor/app/utils/__pycache__
+/servidor/app/__pycache__
+/servidor/app/__pycache__
+/servidor/__pycache__
+.mypy_chache
+##Configuracion mypi
+/servidor/mypy.ini
+##Configuracion de los lsp ruff y pyright
+/servidor/pyproject.toml
+##.env
+/servidor/.env
+
+cliente/public/
+#ARCHIVOS CLIENTE
+#dependencies
+cliente/node_modules
+cliente/.pnp
+cliente/pnp.*
+cliente/yarn/*
+cliente/!.yarn/patches
+cliente/!.yarn/plugins
+cliente/!.yarn/releases
+cliente/!.yarn/versions
+# testing
+cliente/coverage
+# next.js
+cliente/.next/
+cliente/out/
+# production
+cliente/build
+# misc
+cliente/.DS_Store
+cliente/*.pem
+# debug
+cliente/npm-debug.log*
+cliente/yarn-debug.log*
+# env files (can opt-in for committing if needed)
+cliente/.env*
+# vercel
+cliente/.vercel
+# typescript
+cliente/*.tsbuildinfo
+cliente/next-env.d.ts
+
+
